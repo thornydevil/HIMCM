@@ -1,7 +1,5 @@
 public class Person 
-
 {
-	
 	public int strength; //1-4, 4 is strongest
 	
 	public boolean isInfected;
@@ -11,4 +9,12 @@ public class Person
 		strength = yrStrength;
 		isInfected = yrIsInfected;
 	}
+	
+	public int attemptInfect()
+	{
+		int threshold = (int) (Math.random() * 4) + 1; //1,2,3,4
+		if(isInfected) return 1; //can't infect again
+		if(threshold < strength) return 2; //brudda too strong
+		isInfected = true;
+		return 3;
 }
