@@ -1,0 +1,11 @@
+public class Family 
+{
+	
+	public java.util.ArrayList<Person> members;
+	
+
+	public Family(java.util.ArrayList<Person> yrMembers) 
+	{
+		members = yrMembers;
+	}
+}
