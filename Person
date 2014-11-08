@@ -1,0 +1,14 @@
+public class Person 
+
+{
+	
+	public int strength; //1-4, 4 is strongest
+	
+	public boolean isInfected;
+
+	public Person(int yrStrength, boolean yrIsInfected) 
+	{
+		strength = yrStrength;
+		isInfected = yrIsInfected;
+	}
+}
