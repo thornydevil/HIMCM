@@ -1,0 +1,8 @@
+public class Populator
+{
+  public static void main(String[] args) {
+    Scanner in = new java.util.Scanner(System.in);
+    System.out.println("How many families?");
+    famCount = in.nextInt();
+    System.out.println("How many people per family?");
+    memberPer
